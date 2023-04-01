@@ -29,12 +29,11 @@ int main()
   int jugador2(0);
   char simbolo (65);
 	
-	std::cout << "/" << " | " << "/////////////\n";
-	std::cout << "_" << " | " << "1" << " | " << "2" << " | " << "3" << " | " << "\n";
-	std::cout << "a" << " | " << a1 << " | " << a2 << " | " << a3 << " | " << "\n";
-	std::cout << "b" << " | " << b1 << " | " << b2 << " | " << b3 << " | "  << "\n"; 
-	std::cout << "c" << " | " << c1 << " | " << c2 << " | " << c3 << " | " << "\n";
-	std::cout << "/" << " | " << "/////////////\n";
+	  std::cout <<  " | " << "/////////////\n";
+	  std::cout <<  " | " << a1 << " | " << a2 << " | " << a3 << " | " << "\n";
+	  std::cout <<  " | " << b1 << " | " << b2 << " | " << b3 << " | "  << "\n"; 
+	  std::cout <<  " | " << c1 << " | " << c2 << " | " << c3 << " | " << "\n";
+	  std::cout <<  " | " << "/////////////\n";
 
 	if ((turno < 9) && (turno >= 0)){
 
@@ -62,7 +61,7 @@ int main()
 		}
 		else if (turno == 4)
 		{
-			simbolo = {'X'};
+			simbolo = {'O'};
 			std::cout << " | " << "TURNO DEL JUGADOR 2" << " | \n";
       std::cin >> jugador2;
 			turno = turno + 1;
@@ -76,7 +75,7 @@ int main()
     }
 		else if (turno == 6)
 		{
-			simbolo = {'X'};
+			simbolo = {'O'};
 			std::cout << " | " << "TURNO DEL JUGADOR 2" << " | \n";
       std::cin >> jugador2;
 			turno = turno + 1;
@@ -90,7 +89,7 @@ int main()
     }
 		else if (turno == 8)
 		{
-			simbolo = {'X'};
+			simbolo = {'O'};
 			std::cout << " | " << "TURNO DEL JUGADOR 2" << " | \n";
       std::cin >> jugador2;
 			turno = turno + 1;
@@ -102,51 +101,12 @@ int main()
       std::cin >> jugador1;
 			turno = turno + 1;
     }
-		switch (turno)
-		{
-		case 1:
-      jugador1 || jugador2 == a1;
-			a1 = simbolo;
-			break;
-		case 2:
-      jugador1 || jugador2 == a2;
-			a2 = simbolo;
-			break;
-		case 3:
-      jugador1 || jugador2 == a3;
-			a3 = simbolo;
-			break;
-		case 4:
-      jugador1 || jugador2 == b1;
-			b1 = simbolo;
-			break;
-		case 5:
-      jugador1 || jugador2 == b2;
-			b2 = simbolo;
-			break;
-		case 6:
-      jugador1 || jugador2 == b3;
-			b3 = simbolo;
-			break;
-		case 7:
-      jugador1 || jugador2 == c1;
-			c1 = simbolo;
-			break;
-		case 8:
-      jugador1 || jugador2 == c2;
-			c2 = simbolo;
-			break;
-		case 9:
-      jugador1 || jugador2 == c3;
-			c3 = simbolo;
-			break;
-			
-		default:
-			std::cout << "No se ingreso una opcion correcta";
-			break;
-		}
+	  std::cout <<  " | " << "/////////////\n";
+	  std::cout <<  " | " << a1 << " | " << a2 << " | " << a3 << " | " << "\n";
+	  std::cout <<  " | " << b1 << " | " << b2 << " | " << b3 << " | "  << "\n"; 
+	  std::cout <<  " | " << c1 << " | " << c2 << " | " << c3 << " | " << "\n";
+	  std::cout <<  " | " << "/////////////\n";
 
-		turno = turno + 1; 
 
 	}
 			//if (turno == 1 && turno == 3 && turno == 5 && turno == 7 && turno == 9);
