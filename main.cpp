@@ -17,6 +17,7 @@ int main()
 	std::cout << "Escuela Profesional de Ciencia de la Computacion I" << std::endl; 
 	std::cout << "Curso de Ciencia de la Computacion I" << std::endl; 
 	std::cout << "Prof. D.Sc. Manuel Eduardo Loaiza Fernandez" << std::endl;
+	std::cout << "Alum. Freddy Diaz Espino" << std::endl; 
 	std::cout << "Alum. Jose Alberto Ordonez Lopez" << std::endl; 
 	std::cout << "Arequipa 2023 - I" << std::endl; 
 	std::cout << "\x1B[3;34m";         // Mostrar el siguiente texto en modo de letra italico "[3;" y color azul "[ ;34m"	
